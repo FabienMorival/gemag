@@ -1,4 +1,26 @@
+/*
+* Fichier de variables de style
+* Contient les couleurs, polices et autres choix de styles récurrents sur l'application
+*/
+
+
 // Code couleur de l'application
 
-$primary-color: #e6dac6;
-$menu-color: #0C0F11;
+$background-color: linear-gradient(to bottom, #f1ece2, #e6dac6); // Couleur de fond de l'application*
+$footer-color: #151311; // Couleur du footer
+
+// *linear-gradient créé un dégradé entre plusieurs couleurs
+
+
+
+// Polices de l'application
+
+$default-font: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; // Police par défaut (plusieurs sont listées au cas où les premières ne sont pas reconnues par l'ordinateur du client0)
+
+
+
+// Taille des éléments
+
+$nav-height: 10rem;
+$footer-height: 3.5rem
+

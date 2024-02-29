@@ -1,6 +1,7 @@
 @import '../variables';
 
 footer {
-    height: 3.5em;
-    background: $menu-color;
+    
+    height: $footer-height;
+    background: $footer-color;
 }
