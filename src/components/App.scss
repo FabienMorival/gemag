@@ -5,11 +5,16 @@ body {
     font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
 }
 
 .app {
     min-height: 100vh;
     background: $primary-color;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app, .app * {
+    display: flex;
 }
 
