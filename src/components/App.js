@@ -7,9 +7,6 @@ import './App.scss';
 export default function App() {
   return (
     <div className="app">
-      <div>
-      <img src="/image/Logo_Gema.png" alt="Logo Gema" className="logoGema" />
-      </div>
       <Nav/>
       
     </div>
