@@ -1,29 +1,46 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './nav/Nav';
 import Footer from './footer/Footer';
 import './App.scss';
 
+// Import du package de routage
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Import des différentes pages de l'application
 import Home from './home/Home';
+import Associations from './article/associations/Associations';
 import Astronomie from './article/astronomie/Astronomie';
+import Sport from './article/sport/Sport';
+import Cuisine from './article/cuisine/Cuisine';
+import Habillage from './article/habillage/Habillage';
+import Dessalement from './article/dessalement/Dessalement';
 
 /**
  * App - Contient la globalité de l'application
  */
 export default function App() {
   return (
-    <div className="app">
-      { /* Système de routage des différents liens */ }
-      <Router>
-        <Nav/>
-        <main>
-          { /* Chaque route correspond à un lien et affiche la page associée */ }
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/astronomie" element={<Astronomie/>} />
-          </Routes>
+    <div className="app"> {/* Balise contenant l'application */}
+      <Router> {/* Système de routage des différents liens, permettant de passer d'une page à une autre */}
+
+        <Nav/> {/* Panneau de navigation de haut de page, inchangé quelque soit la page */}
+        
+        <main> {/* Corps principal */}
+        
+            <Routes> {/* Chaque route correspond à un lien et affiche la page associée */}
+              <Route path="/" element={<Home/>} /> {/* Vers la page d'accueil */}
+              <Route path="/associations" element={<Associations/>} /> {/* Vers l'article sur les associations */}
+              <Route path="/astronomie" element={<Astronomie/>} /> {/* Vers l'article sur l'astronomie */}
+              <Route path="/sport" element={<Sport/>} /> {/* Vers l'article sur le sport */}
+              <Route path="/cuisine" element={<Cuisine/>} /> {/* Vers l'article sur la cuisine */}
+              <Route path="/habillage" element={<Habillage/>} /> {/* Vers l'article sur l'habillage */}
+              <Route path="/dessalement" element={<Dessalement/>} /> {/* Vers l'article sur le déssalement */}
+            </Routes>
+        
         </main>
-        <Footer />
+
+      <Footer/> {/* Panneau de bas de page, inchangé quelque soit la page */}
+        
       </Router>
     </div>
   );

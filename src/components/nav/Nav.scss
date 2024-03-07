@@ -2,13 +2,19 @@
 
 nav {
 
-}
+    height: $nav-height;
 
-.logoGema {
-    height: 10rem;
-}  
+    .nav-icon {
 
-nav ul {
-    display: flex;
-    float: right;
+        display: inline-block;
+        height: 100%;
+        cursor: pointer;
+
+        img { height: 100%; }
+    }
+
+    ul {
+        
+        float: right;
+    }
 }
