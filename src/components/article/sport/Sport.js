@@ -1,6 +1,10 @@
 import './Sport.scss';
 import Article from '../Article';
 
+import Title from '../ArticleTitle';
+import Paragraph from '../../other/text/Paragraph';
+import Video from '../../other/video/Video';
+
 /**
  * Article sur le sport
  */

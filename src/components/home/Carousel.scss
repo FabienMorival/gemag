@@ -1,0 +1,94 @@
+.article-carousel {
+
+	position: relative;
+	padding: 2rem 2rem;
+	overflow: hidden;
+
+	.carousel-outer {
+
+		max-width: 70rem;
+		margin: auto;
+		position: relative;
+	}
+
+	.carousel-inner {
+
+		white-space: nowrap;
+		width: 100%;
+
+		.article-slide-wrapper {
+
+			display: inline-block;
+			width: 33.3%;
+			transition: width 0.5s;
+			text-align: center;
+		}
+
+		a {
+
+			display: inline-block;
+			height: 15rem;
+			width: 18rem;
+			margin: 0 2rem;
+			transition: width 0.5s, margin 0.5s, opacity 0.5s;
+			box-shadow: 0 0 0.75rem 0.25rem #00000080;
+
+			.article-slide {
+
+				display: inline-block;
+				height: 100%;
+				width: 100%;
+				margin: auto;
+			}
+
+			img {
+
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.article-slide-wrapper.short {
+
+			width: 0%;
+
+			a {
+
+				width: 0rem;
+				opacity: 0;
+				margin: 0 0;
+			}
+		}
+	}
+
+	.carousel-arrow {
+
+		position: absolute;
+		top: calc(50% - 1.5rem);
+		left: -1.5rem;
+		height: 3rem;
+		width: 3rem;
+		border-radius: 50%;
+		background: #101010;
+		font-size: 2.5rem;
+		line-height: 3rem;
+		text-align: center;
+		color: white;
+		opacity: 0.8;
+		cursor: pointer;
+		transition: opacity 0.1s;
+	}
+
+	.carousel-arrow + .carousel-arrow {
+
+		left: unset;
+		right: -1.5rem;
+	}
+
+	.carousel-arrow.invisible {
+
+		opacity: 0;
+		pointer-events: none;
+	}
+}
