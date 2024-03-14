@@ -5,10 +5,12 @@ export default function Video(props) {
   return (
       
     <div className="video">
-      <h1>{props.title}</h1>
-      <video controls>
-        <source src={props.src}/>
-      </video>  
+      <h2>{props.title}</h2>
+      <div className="video-wrapper">
+        <video controls>
+          <source src={props.src}/>
+        </video>
+      </div>
     </div>
   );
 }

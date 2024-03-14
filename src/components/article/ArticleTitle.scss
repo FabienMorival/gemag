@@ -1,1 +1,18 @@
 @import '../variables';
+
+.article-title {
+
+	width: calc(100% + 4rem);
+	margin-left: -2rem;
+	height: 6rem;
+	background: darkgreen;
+	text-align: center;
+
+	h1 {
+
+		color: white;
+		text-align: center;
+		line-height: 6rem;
+		font-weight: normal;
+	}
+}
