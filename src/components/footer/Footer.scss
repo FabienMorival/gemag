@@ -2,6 +2,40 @@
 
 footer {
     
-    height: $footer-height;
+    min-height: $footer-height;
     background: $footer-color;
+    padding: 1rem;
+
+    .left, .right {
+
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+
+        .footer-line {
+
+            color: white;
+            margin: 0.25rem 0;
+
+            a {
+                text-decoration: underline;
+                color: inherit;   
+            }
+
+            a:hover {
+
+                color: lightgray;
+            }
+        }
+    }
+
+    .left {
+
+        text-align: left;
+    }
+
+    .right {
+
+        text-align: right;
+    }
 }
