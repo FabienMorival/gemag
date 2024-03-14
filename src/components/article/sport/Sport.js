@@ -10,8 +10,11 @@ import Video from '../../other/video/Video';
  */
 export default function Sport () {
   return (
-    <Article article="sport"> {/* Utilise l'architecture de base des articles */} 
-      {/* contenu */}
+    <Article article="sport"> 
+      <Title>Le Sport</Title>
+      <Paragraph></Paragraph>
+      <Video src='./videos/Tomahawk2.mp4' title="bidule"/>
     </Article>
+    
   );
 }
