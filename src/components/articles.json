@@ -1,0 +1,8 @@
+[
+  { "name": "Associations", "img": "associations.jpeg", "link": "/associations" },
+  { "name": "Astronomie", "img": "astronomie.jpeg", "link": "/astronomie" },
+  { "name": "Sport", "img": "sport.png", "link": "/sport" },
+  { "name": "Cuisine", "img": "cuisine.jpg", "link": "/cuisine" },
+  { "name": "Habillage", "img": "habillage.png", "link": "/habillage" },
+  { "name": "Déssalement", "img": "dessalement.jpg", "link": "/dessalement" }
+]
