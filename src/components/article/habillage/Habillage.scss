@@ -1,3 +1,44 @@
 .article-habillage {
-	
+
+	.titreRubrique {
+        text-align: center;
+        background-color: green;
+        height:3em;
+        font-size: 3em;
+        display:flex;
+        border: 1px solid black;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .titrePoste {
+        text-align: center;
+        background-color: red;
+        height: 1em;
+        font-size: 2em;
+        margin: 0;
+    }
+    video{
+        max-height: 100%;
+        max-width: 100%; 
+    }
+    div#flex-container {
+        display: flex;
+        border: 1px solid black;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 15em;
+        background-color: gold;
+    }
+    div.flex-items {
+        background-color: orange;
+        height:8rem;
+        width: 40% 
+    }
+    div.content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100% - 2em);
+        margin-top: 0px;
+    }
 }
