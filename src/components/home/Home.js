@@ -3,6 +3,7 @@ import './Home.scss';
 import articles from '../articles.json';
 
 import Carousel from './Carousel';
+import Event from './Event';
 
 
 /**
@@ -12,11 +13,29 @@ export default function Home() {
   return (
     <div className="home-page">
 
+      
       <Carousel articles={articles}/>
 
-      <div className="footer-picture">
-        <img src="/images/photo.png" alt="Photo de groupe"/>
-      </div>
+      <Event
+        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        img="/images/cuisine.jpg"
+        title="Evénement"
+      />
+      <Event
+        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        img="/images/cuisine.jpg"
+        title="Evénement" reverse
+      />
+      <Event
+        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        img="/images/cuisine.jpg"
+        title="Evénement"
+      />
+      <Event
+        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        img="/images/cuisine.jpg"
+        title="Evénement" reverse
+      />
     </div>
   );
 }

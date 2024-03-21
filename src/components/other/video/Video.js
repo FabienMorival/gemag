@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
 import './Video.scss';
 
+import Title from '../MiniTitle';
+
 export default function Video(props) {
   return (
       
     <div className="video">
-      <h2>{props.title}</h2>
+      { props.title ? <Title>{props.title}</Title> : "" }
       <div className="video-wrapper">
         <video controls>
           <source src={props.src}/>

@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.image {
+
+	text-align: center;
+	height: 16rem;
+	margin: auto;
+	text-align: center;
+
+	img {
+
+		height: 100%;
+		margin: auto;
+		box-shadow: 0 0 0.5rem 0.25rem #00000080;
+	}
+}
+
+.half-section .image, .third-section .image, .quarter-section .image {
+
+	height: unset;
+	width: 100%;
+
+	img {
+
+		height: unset;
+		width: calc(100% - 1rem);
+		margin: 0.5rem;
+	}
+}

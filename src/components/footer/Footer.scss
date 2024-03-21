@@ -1,49 +1,56 @@
 @import '../variables';
 
-footer {
-    
-    min-height: $footer-height;
-    background: $footer-color;
-    padding: 1rem;
+.footer {
 
-    .left, .right {
+    position: relative;
 
-        display: inline-block;
-        width: 50%;
-        height: 100%;
+    footer {
+        
+        min-height: $footer-height;
+        background: $footer-color;
+        padding: 1rem;
+        box-shadow: 0 0 0.1rem 0.1rem #00000080;
+        position: relative;
 
-        .footer-line {
+        .left, .right {
 
-            color: white;
-            margin: 0.25rem 0;
+            display: inline-block;
+            width: 50%;
+            height: 100%;
 
-            a {
-                text-decoration: underline;
-                color: inherit;   
-            }
+            .footer-line {
 
-            a:hover {
+                color: white;
+                margin: 0.25rem 0;
 
-                color: lightgray;
+                a {
+                    text-decoration: underline;
+                    color: inherit;   
+                }
+
+                a:hover {
+
+                    color: lightgray;
+                }
             }
         }
-    }
 
-    .left {
+        .left {
 
-        text-align: left;
-    }
+            text-align: left;
+        }
 
-    .right {
+        .right {
 
-        text-align: right;
+            text-align: right;
+        }
     }
 
     .footer-picture {
 
         width: 100%;
         margin-top: 5rem;
-        margin-bottom: -4px;
+        margin-bottom: -6px;
 
         img {
 
@@ -52,4 +59,5 @@ footer {
             object-fit: cover;
         }
     }
+
 }

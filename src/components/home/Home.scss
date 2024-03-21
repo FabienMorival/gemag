@@ -10,8 +10,9 @@
 
 	.footer-picture {
 
-		width: 100%;
+		width: calc(100% + 4rem);
 		margin-top: 5rem;
+		margin-left: -2rem;
 		margin-bottom: -4px;
 
 		img {

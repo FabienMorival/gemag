@@ -1,6 +1,12 @@
 .article-habillage {
 
-    .titreRubrique {
+    .video .video-wrapper video {
+        height: unset;
+        max-height: 100%;
+        width: 60%;
+    }
+
+    /*.titreRubrique {
         text-align: center;
         background-color: green;
         height:3em;
@@ -15,10 +21,6 @@
         height: 1em;
         font-size: 2em;
         margin: 0;
-    }
-    video{
-        max-height: 100%;
-        width: 60%;
     }
     
     div#flex-container {
@@ -46,5 +48,5 @@
         object-fit: fill;  
         margin: auto;  
         
-    }
+    }*/
 }
