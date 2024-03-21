@@ -24,12 +24,6 @@ export default function Habillage () {
       <div className="half-section">
         <Video src='./videos/Tomahawk2.mp4'/>
       </div>
-      <div className="half-section">
-        <Video src='./videos/Tomahawk2.mp4'/>
-      </div>
-      <div className="half-section">
-        <Paragraph centered title="Titre du post">Du texte plus long et avec des trucs en plus.</Paragraph>
-      </div>
     </Article>
   );
 }
