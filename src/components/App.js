@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Import des différentes pages de l'application
 import Home from './home/Home';
 import Associations from './article/associations/Associations';
-import Astronomie from './article/astronomie/Astronomie';
 import Sport from './article/sport/Sport';
 import Cuisine from './article/cuisine/Cuisine';
 import Habillage from './article/habillage/Habillage';
