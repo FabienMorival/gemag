@@ -29,7 +29,6 @@ export default function App() {
             <Routes> {/* Chaque route correspond à un lien et affiche la page associée */}
               <Route path="/" element={<Home/>} /> {/* Vers la page d'accueil */}
               <Route path="/associations" element={<Associations/>} /> {/* Vers l'article sur les associations */}
-              <Route path="/astronomie" element={<Astronomie/>} /> {/* Vers l'article sur l'astronomie */}
               <Route path="/sport" element={<Sport/>} /> {/* Vers l'article sur le sport */}
               <Route path="/cuisine" element={<Cuisine/>} /> {/* Vers l'article sur la cuisine */}
               <Route path="/habillage" element={<Habillage/>} /> {/* Vers l'article sur l'habillage */}
