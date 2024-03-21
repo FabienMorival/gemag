@@ -1,0 +1,65 @@
+.did-you-know {
+
+    position: fixed;
+    bottom: 1rem;
+    right: -19rem;
+    height: 12rem;
+    width: 18rem;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 2s ease-out, right 2s ease-out;
+
+    &.visible {
+
+        opacity: 1;
+        right: 1rem;
+    }
+
+    .dyk-link {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .dyk-box {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 0 0.1rem 0.05rem #00000080;
+
+            .dyk-background {
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                filter: brightness(0.7);
+            }
+
+            .dyk-content {
+
+                z-index: 1;
+                position: absolute;
+                color: white;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                text-shadow: 2px 1px 0 #00000080;
+                font-weight: bold;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

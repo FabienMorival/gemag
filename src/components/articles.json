@@ -1,7 +1,6 @@
 [
-  { "name": "Associations", "img": "associations.jpeg", "link": "/associations" },
-  { "name": "Sport", "img": "sport.png", "link": "/sport" },
-  { "name": "Cuisine", "img": "cuisine.jpg", "link": "/cuisine" },
-  { "name": "Habillage", "img": "habillage.png", "link": "/habillage" },
-  { "name": "Déssalement", "img": "dessalement.jpg", "link": "/dessalement" }
+  { "name": "Sport", "img": "sport.png", "link": "/sport", "dyk": "100 pompes par jour, allez." },
+  { "name": "Cuisine", "img": "cuisine.jpg", "link": "/cuisine", "dyk": "Mangez 5 fruits et légumes par jour." },
+  { "name": "Habillage", "img": "habillage.png", "link": "/habillage", "dyk": "Vinted existe." },
+  { "name": "Déssalement", "img": "dessalement.jpg", "link": "/dessalement", "dyk": "L'eau salée déshydrate." }
 ]
