@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import './Article.scss';
 
+import Back from './Back';
+
 /**
  * Affichage commun des articles
  * Ne modifier que ce qui est commun à tous les articles
@@ -15,9 +17,7 @@ export default function Article({ article, children }) {
         children
       }
 
-      <Link to="/" className="back-home"> {/* Lien de retour à l'accueil - temporaire */}
-        Retour à l'accueil
-      </Link>
+      <Back/> {/* Lien de retour à l'accueil */}
 
     </div>
   );

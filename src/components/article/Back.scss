@@ -1,0 +1,15 @@
+.back-home {
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 3rem;
+    width: 3rem;
+
+    img {
+
+    	height: 100%;
+    	width: 100%;
+    	filter: drop-shadow(3px 3px 0px #00000080)
+    }
+}
