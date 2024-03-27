@@ -28,16 +28,15 @@ export default function Dessalement () {
     <div className='quarter-section'>  
     <Image src="/images/dessalement.jpg"></Image>
     </div>
-    <div className='quarter-section'/>
-    <div className='quarter-section image-2'>
+    <div className='third-section image-2'>
       <Image src="/images/dessalement.jpg"/>
     </div>
-    <div className='half-section'>
+    <div className='two-third-section'>
     <Paragraph title="Osmose & Osmose inverse">
-Osmose  : 
+<b>Osmose :</b> 
 <br/>La pression osmotique est une force déterminée par une différence de concentration entre deux solutions situées de part et d'autre d'une membrane semi-perméable. 
 <br/>Une membrane semi-perméable est une membrane qui laisse passer le solvant ( l’eau) mais pas le soluté (sel). 
-<br/><br/>Osmose inversé : 
+<br/><br/><b>Osmose inversé :</b>  
 <br/>Dans ce procédé, on applique une pression supérieure à la pression osmotique pour empêcher l’osmose, ce qui  traduit par un flux d'eau dirigé en sens inverse (voir figure schéma 5), c'est-à-dire de la solution concentrée vers la solution diluée : c'est le phénomène d'osmose inverse. 
 </Paragraph>
 </div>

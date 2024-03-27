@@ -1,3 +1,5 @@
+@import 'font/style';
+
 /*
 * Fichier de variables de style
 * Contient les couleurs, polices et autres choix de styles récurrents sur l'application
@@ -6,8 +8,10 @@
 
 // Code couleur de l'application
 
-$background-color: linear-gradient(to bottom, #f1ece2, #e6dac6); // Couleur de fond de l'application*
-$footer-color: #151311; // Couleur du footer
+$background-color: white; //linear-gradient(to bottom, #f1ece2, #e6dac6); // Couleur de fond de l'application*
+$footer-color: #0B0068; // Couleur du footer
+$title-color: #0B0068;
+$text-color: #0B0068;
 
 // *linear-gradient créé un dégradé entre plusieurs couleurs
 
@@ -15,7 +19,7 @@ $footer-color: #151311; // Couleur du footer
 
 // Polices de l'application
 
-$default-font: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; // Police par défaut (plusieurs sont listées au cas où les premières ne sont pas reconnues par l'ordinateur du client0)
+$default-font: "Brother 1816", HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; // Police par défaut (plusieurs sont listées au cas où les premières ne sont pas reconnues par l'ordinateur du client0)
 
 
 

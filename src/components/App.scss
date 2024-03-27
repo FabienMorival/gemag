@@ -14,6 +14,18 @@ body {
     background: $background-color; // Couleur de fond
     flex-direction: column;
     justify-content: space-between;
+    color: $text-color;
+    font-family: $default-font;
+}
+
+@font-face {
+    font-family: "Brother-1816-Light";
+    src: url("https://db.onlinewebfonts.com/t/4c6d4bae00673663979f1879f856ec7e.eot");
+    src: url("https://db.onlinewebfonts.com/t/4c6d4bae00673663979f1879f856ec7e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c6d4bae00673663979f1879f856ec7e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c6d4bae00673663979f1879f856ec7e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c6d4bae00673663979f1879f856ec7e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c6d4bae00673663979f1879f856ec7e.svg#Brother-1816-Light")format("svg");
 }
 
 main {
