@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
 import articles from '../articles.json';
@@ -6,6 +7,7 @@ import Associations from './Associations';
 import Carousel from './Carousel';
 import Event from './Event';
 import Paragraph from '../other/text/Paragraph';
+import Questionnaire from './Questionnaire';
 
 
 /**
@@ -41,6 +43,8 @@ export default function Home() {
         img="/images/cuisine.jpg"
         title="Evénement" reverse
       />
+
+      <Questionnaire/>
     </div>
   );
 }
