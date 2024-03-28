@@ -1,6 +1,6 @@
 [
-  { "name": "Sport", "img": "sport.png", "link": "/sport", "dyk": "100 pompes par jour, allez." },
-  { "name": "Cuisine", "img": "cuisine.jpg", "link": "/cuisine", "dyk": "Mangez 5 fruits et légumes par jour." },
+  { "name": "Le sport ou les études", "img": "sportouetudes.png", "link": "/sportouetudes", "dyk": "100 pompes par jour, allez." },
+  { "name": "Restos coup de coeur", "img": "restos.png", "link": "/restoscoupdecoeur", "dyk": "Mangez 5 fruits et légumes par jour." },
   { "name": "Habillage", "img": "habillage.png", "link": "/habillage", "dyk": "Vinted existe." },
-  { "name": "Déssalement", "img": "dessalement.jpg", "link": "/dessalement", "dyk": "L'eau salée déshydrate." }
+  { "name": "De la Mer au Verre", "img": "delamerauverre.jpg", "link": "/delamerauverre", "dyk": "Une œuvre d'art est dédiée au dessalement d'eau de mer" }
 ]

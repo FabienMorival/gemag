@@ -13,6 +13,8 @@ import Sport from './article/sport/Sport';
 import Cuisine from './article/cuisine/Cuisine';
 import Habillage from './article/habillage/Habillage';
 import Dessalement from './article/dessalement/Dessalement';
+import Dessalementplus from './article/dessalement/Dessalement+';
+import CGU from './cgu/CGU';
 
 /**
  * App - Contient la globalité de l'application
@@ -28,11 +30,13 @@ export default function App() {
         
             <Routes> {/* Chaque route correspond à un lien et affiche la page associée */}
               <Route path="/" element={<Home/>} /> {/* Vers la page d'accueil */}
-              <Route path="/associations" element={<Associations/>} /> {/* Vers l'article sur les associations */}
-              <Route path="/sport" element={<Sport/>} /> {/* Vers l'article sur le sport */}
-              <Route path="/cuisine" element={<Cuisine/>} /> {/* Vers l'article sur la cuisine */}
+              <Route path="/engagements" element={<Associations/>} /> {/* Vers l'article sur les associations */}
+              <Route path="/sportouetudes" element={<Sport/>} /> {/* Vers l'article sur le sport */}
+              <Route path="/restoscoupdecoeur" element={<Cuisine/>} /> {/* Vers l'article sur la cuisine */}
               <Route path="/habillage" element={<Habillage/>} /> {/* Vers l'article sur l'habillage */}
-              <Route path="/dessalement" element={<Dessalement/>} /> {/* Vers l'article sur le déssalement */}
+              <Route path="/delamerauverre" element={<Dessalement/>} /> {/* Vers l'article sur le déssalement */}
+              <Route path="/delamerauverreplus" element={<Dessalementplus/>} /> {/* Vers les infos supplémentaires du déssalement */}
+              <Route path="/conditions-dutilisation" element={<CGU/>} />
             </Routes>
         
         </main>

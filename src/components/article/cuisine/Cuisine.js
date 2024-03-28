@@ -16,6 +16,16 @@ export default function Cuisine () {
     <Video url='./videos/Tomahawk2.mp4' title='Vidéo'/>
     <div className='trait'/>
       {/* contenu */}
+      <Paragraph>Le Maquis Restaurant : 20 rue de la Méditerranée, 34070, Montpellier</Paragraph>
+      <Paragraph>Tropic Addict : 62 rue de l’Aiguillerie, 34000, Montpellier</Paragraph>
+      <Paragraph>Rocco et sa mère: 8 rue Plan d'Agde, 34000, Montpellier</Paragraph>
+      <Paragraph>Ô délice des saveurs : 12 rue de la Méditerranéé, 34070, Montpellier</Paragraph>
+      <Paragraph>L’Original de Sarah : 16 rue Henri Réné, 34000, Montpellier</Paragraph>
+      <Paragraph>L'Entrecôte : 3 rue Verdun, 34000, Montpellier</Paragraph>
+      <Paragraph>Fresh Burritos: 5 rue Loge, 34000, Montpellier</Paragraph>
+      <Paragraph>Thaïzone : 12 rue Boussairolles , 34000, Montpellier</Paragraph>
+      <Paragraph>Bioburger : 40 rue Etuves, 34000, Montpellier</Paragraph>
+      <Paragraph>IT : 2 rue de Verdun,  34000, Montpellier</Paragraph>
     </Article>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Carousel.scss';
 
@@ -39,6 +39,9 @@ function Slide(props) {
       <Link to={props.article.link}>
         <div className="article-slide">
           <img src={"/images/" + props.article.img} alt={props.article.name}/>
+          <div className="article-slide-title">
+            {props.article.name}
+          </div>
         </div>
       </Link>
     </div>
