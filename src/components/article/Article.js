@@ -5,7 +5,7 @@ import './Article.scss';
 import Back from './Back';
 import DidYouKnow from './DidYouKnow';
 
-const dykDelay = 60000;
+const dykDelay = 0;
 
 /**
  * Affichage commun des articles

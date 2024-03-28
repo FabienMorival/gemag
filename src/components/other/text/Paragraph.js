@@ -6,7 +6,7 @@ import Title from '../MiniTitle';
 export default function Paragraph(props) {
   return (
       
-    <div className="paragraph">
+    <div id={props.title ? "paragraph-" + props.title : ""} className="paragraph">
       { props.title ? <Title>{props.title}</Title> : "" }
       <p className={ props.centered ? "centered" : "" }>{props.children}</p>
     </div>

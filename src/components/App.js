@@ -13,6 +13,7 @@ import Sport from './article/sport/Sport';
 import Cuisine from './article/cuisine/Cuisine';
 import Habillage from './article/habillage/Habillage';
 import Dessalement from './article/dessalement/Dessalement';
+import Dessalementplus from './article/dessalement/Dessalement+';
 
 /**
  * App - Contient la globalité de l'application
@@ -33,6 +34,7 @@ export default function App() {
               <Route path="/cuisine" element={<Cuisine/>} /> {/* Vers l'article sur la cuisine */}
               <Route path="/habillage" element={<Habillage/>} /> {/* Vers l'article sur l'habillage */}
               <Route path="/dessalement" element={<Dessalement/>} /> {/* Vers l'article sur le déssalement */}
+              <Route path="/dessalementplus" element={<Dessalementplus/>} /> {/* Vers les infos supplémentaires du déssalement */}
             </Routes>
         
         </main>

@@ -1,6 +1,6 @@
 [
   { "name": "Sport", "img": "sport.png", "link": "/sport", "dyk": "100 pompes par jour, allez." },
-  { "name": "Cuisine", "img": "cuisine.jpg", "link": "/cuisine", "dyk": "Mangez 5 fruits et légumes par jour." },
+  { "name": "Cuisine", "img": "cuisine.jpg", "link": "/cuisine", "dyk": "Sarah, une étudiante du groupe GEMA est la gérante et fondatrice d’un restaurant « Original » sur Montpellier" },
   { "name": "Habillage", "img": "habillage.png", "link": "/habillage", "dyk": "Vinted existe." },
-  { "name": "Déssalement", "img": "dessalement.jpg", "link": "/dessalement", "dyk": "L'eau salée déshydrate." }
+  { "name": "Déssalement", "img": "dessalement.jpg", "link": "/dessalement", "dyk": "Une œuvre d'art est dédiée au dessalement d'eau de mer" }
 ]
