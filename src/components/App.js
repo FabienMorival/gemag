@@ -35,7 +35,7 @@ export default function App() {
               <Route path="/restoscoupdecoeur" element={<Cuisine/>} /> {/* Vers l'article sur la cuisine */}
               <Route path="/habillage" element={<Habillage/>} /> {/* Vers l'article sur l'habillage */}
               <Route path="/delamerauverre" element={<Dessalement/>} /> {/* Vers l'article sur le déssalement */}
-              <Route path="/dessalementplus" element={<Dessalementplus/>} /> {/* Vers les infos supplémentaires du déssalement */}
+              <Route path="/delamerauverreplus" element={<Dessalementplus/>} /> {/* Vers les infos supplémentaires du déssalement */}
               <Route path="/conditions-dutilisation" element={<CGU/>} />
             </Routes>
         
