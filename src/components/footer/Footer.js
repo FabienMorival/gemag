@@ -1,4 +1,5 @@
 import './Footer.scss';
+import { Link } from 'react-router-dom';
 
 /**
  * Footer - Contient les informations de bas de page
@@ -14,7 +15,7 @@ export default function Footer() {
         <div className="left">
         </div>
         <div className="right">
-          <div className="footer-line"><a href="#">Conditions d'utilisation</a></div>
+          <div className="footer-line"><Link to="/conditions-dutilisation">Conditions d'utilisation</Link></div>
           <div className="footer-line">GEMA Montpellier - 2024</div>
         </div>
       </footer>
