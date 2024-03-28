@@ -22,4 +22,14 @@
 			object-fit: cover;
 		}
 	}
+
+	.asso-link {
+
+		width: 80%;
+		max-width: 45rem;
+		display: flex;
+		align-self: center;
+		box-shadow: 0 0 0.75rem 0.25rem #00000080;
+		margin: 3rem auto;
+	}
 }

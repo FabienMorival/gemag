@@ -1,3 +1,5 @@
+@import '../variables';
+
 .article-carousel {
 
 	position: relative;
@@ -39,6 +41,21 @@
 				height: 100%;
 				width: 100%;
 				margin: auto;
+				position: relative;
+
+				.article-slide-title {
+
+					position: absolute;
+					width: 100%;
+					height: 3rem;
+					color: $text-color;
+					background: #FFFFFFB0;
+					top: calc(50% - 1.5rem);
+					left: 0;
+					white-space: nowrap;
+					line-height: 3rem;
+					font-size: 1.3rem;
+				}
 			}
 
 			img {
